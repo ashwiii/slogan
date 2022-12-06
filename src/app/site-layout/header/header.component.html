@@ -1,65 +1,63 @@
-<nav class="navbar bg-light sticky-top bg-light">
-    <div class="container-fluid">
-        <div class="col-lg-4 col-4">
+<div class="container">
+    <nav class="navbar bg-light sticky-top bg-light">
+        <div class="container">
+            <div class="col-lg-4 col-4">
 
-        <button style="border: none;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Slogan</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="listing">Listing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"></a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+                <button style="border: none;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Slogan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Home</a>
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="listing">Listing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"></a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
-                <!-- <form class="d-flex mt-3" role="search">
+                        <!-- <form class="d-flex mt-3" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form> -->
+                    </div>
+                </div>
             </div>
+
+            <div class="col-lg-4 col-4">
+                <img class="center1" style="height: 70%; width: 10%; align-content: center;"
+                    src="https://i.postimg.cc/G22RLt7h/image.png" alt="">
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex d-flex justify-content-md-end col-lg-4 col-4">
+                <button (click)="register()" class="btn ss " type="button">Register</button>
+                <button (click)="login()" class="btn sc px-3" type="button">Login</button>
+
+            </div>
+
+
+
+
         </div>
-    </div>
-
-        <div class="col-lg-4 col-4">
-            <img class="center1" style="height: 70%; width: 10%; align-content: center;"
-                src="https://i.postimg.cc/G22RLt7h/image.png" alt="">
-        </div>
-
-        <div class="d-grid gap-2 d-md-flex d-flex justify-content-md-end col-lg-4 col-4">
-            <button (click)="register()" class="btn ss " type="button">Register</button>
-            <button (click)="login()" class="btn sc px-3" type="button">Login</button>
-
-        </div>
-
-
-
-
-    </div>
-</nav>
-
-
-
-
-
+    </nav>
+</div>
