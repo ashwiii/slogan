@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AfterloginComponent } from './afterlogin/afterlogin.component';
+import { SelectCategoryComponent } from './select-category/select-category.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AfterloginComponent } from './afterlogin/afterlogin.component';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    AfterloginComponent
+    AfterloginComponent,
+    SelectCategoryComponent
   ],
   imports: [
     BrowserModule,
