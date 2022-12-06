@@ -1,0 +1,28 @@
+.login-box{
+position: relative;
+top: 50%;
+left: 50%;
+width: 400px;
+padding: 40px;
+transform: translate(-50%, 10%);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.sw{
+    text-align: center;
+    padding: 10px;
+    
+}
+.sq{
+    text-align: center;
+    border: none;
+    padding: 10px;
+    /* background-color: darkmagenta; */
+
+}
+.cc{
+    margin-left: 38%;
+    position: relative;
+    height: 100px;
+    /* transform: translate(50%,); */
+}

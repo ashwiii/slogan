@@ -1,0 +1,20 @@
+.container{
+    width: 75%;
+}
+.sv{
+    text-align: end;
+}
+.sx{
+    text-align: start; 
+}
+.cv{
+    padding: 10px;
+}
+.loginbox{
+    box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.cc{
+    /* margin-left: 38%; */
+    position: relative;
+    height: 50px;}
