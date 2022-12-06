@@ -68,11 +68,13 @@ li
 }   
 .card{
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     /* border: none; */
     box-sizing: border-box;
     /* box-shadow: 0 15px 25px rgba(0,0,0,.6); */
     margin-top: 20px;
+    margin-left: 10px;
+    align-items: center;
 }   
 /* .card img{
     width: 100%;
