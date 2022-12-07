@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+}
+label{
+    color: gray;
+    padding-bottom: 5px;
+}
+.wrapper>input {
+    display: none;
+  }
+  .ss{
+      position: relative;
+  }
+  .cc{
+      position: absolute;
+      font-size: 25px;
+      margin-left: -25px;
+  }

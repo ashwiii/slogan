@@ -1,0 +1,55 @@
+<div class="container pt-5">
+    <h2 style="color: darkmagenta;">My account</h2>
+</div>
+<div class="container pt-2">
+    <div class="row ">
+        <div class="col-lg-4 col-md-6 col-6 pt-5">
+            <div>
+                <a style="color: black;" href="profile">profile</a>
+            </div>
+            <hr style="width: 50%;">
+            <div>
+                <a style="color: darkmagenta;" href="edit">edit profile</a>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-6  ">
+            <div style="padding-left: 39%;" class="justify-content-center wrapper d-block">
+                <img style="height: 80px;width: 80px;" class="rounded-circle ss" [src]="url" alt="">
+                <label for="file-input">
+                    <i class="btn fa-solid fa-camera cc"></i> </label>
+                <input id="file-input" type="file" (change)="onselect($event)">
+                <!-- <figure>
+                    <i  class=" fa-solid fa-camera"></i>
+                </figure> -->
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-6 col-md-6 d-block"><label for="">First name</label>
+                    <input value="Beck" class="form-control" type="text">
+                </div>
+                <div class="col-lg-6 col-md-6 d-block"><label for="">Last name</label>
+                    <input value="Bowes" class="form-control" type="text">
+                </div>
+            </div>
+            <div class="d-block pt-4">
+                <label for="">Email</label>
+                <input value="Beckbowes@gmail.com" class="form-control" type="text">
+
+            </div>
+            <div class="d-block pt-4">
+                <label for="">Contact number</label>
+                <input value="9045678923" class="form-control" type="text">
+
+            </div>
+            <div class="d-block pt-4">
+                <label for="">password</label>
+                <input value="1234567812345" class="form-control" type="password">
+
+            </div>
+            <div class="pt-4">
+                <button style="background-color: darkmagenta; color: white; width: 100px;" class="btn">Save</button>
+            </div>
+        </div>
+    </div>
+</div>

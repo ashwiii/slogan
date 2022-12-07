@@ -9,6 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AfterloginComponent } from './afterlogin/afterlogin.component';
 import { SelectCategoryComponent } from './select-category/select-category.component';
+import { TermsComponent } from './terms/terms.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProfileComponent } from './profile/profile.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { SelectCategoryComponent } from './select-category/select-category.compo
     LoginComponent,
     RegisterComponent,
     AfterloginComponent,
-    SelectCategoryComponent
+    SelectCategoryComponent,
+    TermsComponent,
+    ContactComponent,
+    ProfileComponent,
+    EditProfileComponent
   ],
   imports: [
     BrowserModule,
