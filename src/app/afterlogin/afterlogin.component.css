@@ -29,6 +29,10 @@ a{
     text-align: center;
 
 }
+.bv{
+    font-size: smaller;
+    text-align: end;
+}
 
 /* @media (min-width: 768px){
     .col-md {
