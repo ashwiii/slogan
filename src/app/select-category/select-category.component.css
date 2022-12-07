@@ -73,8 +73,12 @@ li
     box-sizing: border-box;
     /* box-shadow: 0 15px 25px rgba(0,0,0,.6); */
     margin-top: 20px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     align-items: center;
+    /* margin: auto;
+    float: none; */
+    margin-bottom: 10px;
+    border-right: 10px;
 }   
 /* .card img{
     width: 100%;
