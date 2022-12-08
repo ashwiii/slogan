@@ -2,7 +2,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 50%;
+    /* width: 50%; */
     border-bottom: 1px solid black;
     text-decoration: none;
     text-decoration-line: none;
@@ -85,6 +85,3 @@ li
     margin-bottom: 10px;
     border-right: 10px;
 }   
-/* .card img{
-    width: 100%;
-} */
