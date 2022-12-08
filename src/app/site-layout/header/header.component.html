@@ -72,65 +72,66 @@
 
 
 <nav class="navbar sticky-top justify-content-center bg-light">
-    <div class=" container-fluid row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-start">
-            <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                aria-controls="offcanvasExample">
-                <i style="font-size: 30px;" class="fa-solid fa-bars"></i>
-            </a>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="listing">Listing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="select">select category</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="profile">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact">Contactus</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="terms">Terms&Conditions</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#"></a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+    <div class=" container-fluid justify-content-center">
+        <div class="row w-100 g-0 align-items-center ">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-start">
+                <a class="btn p-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i style="font-size: 30px;" class="fa-solid fa-bars"></i>
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="listing">Listing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="select">select category</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact">Contactus</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="terms">Terms&Conditions</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"></a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-4 justify-content-center">
-            <img class="center1 justify-content-center" style="height: 30px; width: 30px; align-content: center;"
-                src="https://i.postimg.cc/G22RLt7h/image.png" alt="">
-        </div>
-        <div class="d-grid gap-2 d-md-flex d-flex justify-content-end col-lg-4 col-4">
-            <button (click)="register()" class="btn ss " type="button">Register</button>
-            <button (click)="login()" class="btn sc px-3" type="button">Login</button>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 justify-content-center">
+                <img class="center1 justify-content-center" style="height: 30px; width: 30px; align-content: center;"
+                    src="https://i.postimg.cc/G22RLt7h/image.png" alt="">
+            </div>
+            <div class="d-grid gap-2 d-md-flex d-flex justify-content-end col-lg-4 col-4">
+                <button (click)="register()" class="btn ss " type="button">Register</button>
+                <button (click)="login()" class="btn sc px-3" type="button">Login</button>
 
+            </div>
         </div>
-
     </div>
 </nav>
