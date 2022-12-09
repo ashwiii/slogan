@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./select-category.component.css']
 })
 export class SelectCategoryComponent implements OnInit {
+  
 
   constructor() { }
 
@@ -28,4 +29,10 @@ demo:any
     }
   })
 
+
+
+
+
+
+ 
 }
